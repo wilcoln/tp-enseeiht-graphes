@@ -1,0 +1,4 @@
+ocamlopt graph.cmx ex_no.ml $1.ml
+./a.out
+dot graph.dot -Tps -o graph.ps
+atril graph.ps
