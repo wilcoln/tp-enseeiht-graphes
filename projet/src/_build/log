@@ -1,0 +1,4 @@
+# dune install ocamlgraph
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune0ba9d5.output 2> /dev/null
+$ /usr/bin/ocamlc.opt -config > /tmp/dune5a33d9.output
