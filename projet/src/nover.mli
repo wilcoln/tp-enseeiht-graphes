@@ -31,4 +31,4 @@ val step_nover : Zach.Zach.t -> unit
  * In order to test you will need to create manually the communities list.
  * Be careful of working with the inital graph ! "step_nover" is changing the graph.
  * *)
-val modularity : Zach.Zach.t -> Zach.Zach.V.t list list -> float
+val modularity : float -> Zach.Zach.t -> Zach.Zach.V.t list list -> float

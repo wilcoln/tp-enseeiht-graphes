@@ -1,2 +1,22 @@
 Réutiliser l'algo du plus court chemin
 Réutiliser l'algo de calcul du nombre de composantes connexes
+
+mail chargé de TP:
+bastien.vieuble@irit.fr
+
+
+Interpreter:
+# load graph "graph.cmo"
+# use 
+
+Compiler : 
+ocamlopt garph.cmx en_no.ml tp1.ml
+    a.out
+
+
+Liens utiles
+https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html
+
+http://ocamlgraph.lri.fr/doc/Pack.Graph.html
+
+http://ocamlgraph.lri.fr/doc/Pack.Digraph.html

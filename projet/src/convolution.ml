@@ -26,7 +26,7 @@ let print_param g =
 
 let getlabel v = string_of_int (Zach.getnumberv v);;
 
-
+Zach.dot_output g4 "graphs/g4.dot";;
 print_param g4;;
 let c1 = convolution g4 v4_1;;
 print_endline ("conv sur "^(getlabel v4_1)^" : "^(string_of_list c1));;
